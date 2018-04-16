@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="schoolApp"><!--application sur toute la page avec ng-app-->
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Partie 2 Exercice 3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script><!--Appel du script-->
+    <script src="script.js"></script>
+  </head>
+  <h1>AngularJS Partie 2 Exercice 3</h1>
+  <body ng-controller="studentsCtrl">
+    <div ng-model="studentsCtrl">
+      {{firstName + ' ' + lastName + ' ' + age + ' ' + grade}}<!--Je concatène les variables et je rajoute des espaces entre elles avec 'espace'-->
+    </div>
+</body>
+</html>
